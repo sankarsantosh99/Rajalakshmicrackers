@@ -1,19 +1,31 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./hcarousel.css";
-
-
 
 function Hcarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const slides = ["/assets/greenleaves.jpg","/assets/greenleaves.jpg","/assets/greenleaves.jpg"];
+
+  const slides = [
+    "/assets/greenleaves.jpg",
+    "/assets/greenleaves.jpg",
+    "/assets/greenleaves.jpg",
+  ];
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => prevIndex === 0 ? slides.length - 1 : prevIndex - 1);
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+    );
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNext();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [slides.length]);
 
   return (
     <>
@@ -25,7 +37,7 @@ function Hcarousel() {
           }}
         >
           {slides.map((src, index) => (
-            <div className="slide">
+            <div className="slide" key={index}>
               <img src={src} alt={`Slide ${index + 1}`} />
             </div>
           ))}
