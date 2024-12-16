@@ -23,7 +23,7 @@ function Hcarousel() {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 3000);
+    }, 4000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
