@@ -10,8 +10,8 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Hfooter() {
   return (
     <>
-      <div className="footer">
-
+    <footer>
+      <div className="container">
         <div className="faboutus">
           <h2>About Us</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa pariatur nisi architecto optio quae accusamus? Laborum alias quia recusandae atque iste nisi consequuntur! Est fuga dolor iste adipisci maxime reprehenderit.</p>
@@ -111,6 +111,7 @@ export default function Hfooter() {
           </ul>
         </div>
       </div>
+    </footer>
     </>
   );
 }
