@@ -1,9 +1,6 @@
 import React from "react";
 import "./hfooter.css";
-import { FaYoutube } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { BiLogoWhatsappSquare } from "react-icons/bi";
+import { FaWhatsappSquare, FaYoutube,FaFacebookSquare,FaInstagramSquare, FaPhoneAlt  } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 
@@ -12,18 +9,19 @@ export default function Hfooter() {
     <>
     <footer>
       <div className="container">
+
         <div className="faboutus">
           <h2>About Us</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa pariatur nisi architecto optio quae accusamus? Laborum alias quia recusandae atque iste nisi consequuntur! Est fuga dolor iste adipisci maxime reprehenderit.</p>
           <ul>
             <li>
-              <span><a href="#" className="ficons">
+             <a href="#" className="ficons">
                 <FaYoutube />
-              </a></span>
+              </a>
             </li>
             <li>
               <a href="#" className="ficons">
-                <FaFacebookSquare />
+                <FaFacebookSquare  />
               </a>
             </li>
             <li>
@@ -33,7 +31,7 @@ export default function Hfooter() {
             </li>
             <li>
               <a href="#" className="ficons">
-                <BiLogoWhatsappSquare />
+              <FaWhatsappSquare />
               </a>
             </li>
           </ul>
@@ -74,6 +72,7 @@ export default function Hfooter() {
             </li>
           </ul>
         </div>
+
         <div className="products">
           <h2>Products</h2>
           <ul>
@@ -97,10 +96,13 @@ export default function Hfooter() {
           <ul>
             <li>
               <span><FaLocationDot /> </span>
-              <span></span>
+              <p>Vsoft,<br/>
+              Vannarpettai,<br/>
+              Tirunelveli.<br/> </p>
+              
             </li>
             <li>
-              <a href="#"></a>
+              <span><FaPhoneAlt /></span>
             </li>
             <li>
               <a href="#"></a>

@@ -1,54 +1,37 @@
-body{
-  display: grid;
-  justify-content:end;
-  align-content: end;
-  min-height: 80vh;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-footer{
+
+footer {
   font-family: "kanit", sans-serif;
-  position: relative;
-  width:100%;
+  width: 100%;
   height: auto;
-  padding:50px 100px ;
+  padding: 20px 10px;
   background: #3044a5;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.container div {
+  
 }
 
 li {
   list-style: none;
-  
 }
 
 .ficons {
   font-size: 2rem;
-  display: inline-block;
-}
-.ficons svg {
-  width: 100%;
-  height: 100%;
-  stroke:url(#gradient);
-}
-
-svg {
-  width: 2rem;
-  height: 2rem;
-}
-
-#gradient {
-  stop-color: rgb(236, 196, 0);
-  stop-opacity: 1;
-}
-
-#gradient stop:nth-child(2) {
-  stop-color: rgb(255, 248, 168);
-}
-
-#gradient stop:nth-child(3) {
-  stop-color: rgb(221, 172, 23);
-}
-
-#gradient stop:nth-child(4) {
-  stop-color: rgb(255, 255, 149);
+  padding: 0;
+  margin: 0;
+  color: gold;
 }
 
 a {
