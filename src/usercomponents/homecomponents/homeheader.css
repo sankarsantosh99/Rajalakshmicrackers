@@ -36,7 +36,7 @@
   height: 30px;
 }
 
-span {
+.IconText {
   display: flex;
   align-items: center;
 }
@@ -67,7 +67,11 @@ span {
   .SearchParent {
     flex-basis: 80%;
     order: 1;
+    gap: 16%;
     justify-content: space-evenly;
+  }
+  .SearchInput{
+    padding: 6px;
   }
 
   #Ham {
@@ -88,8 +92,8 @@ span {
   .SearchParent {
     flex-basis: 30%;
     width: 15rem;
+    gap: 9%;
   }
-  .symbols {
-    flex-wrap: nowrap;
-  }
+
+
 }

@@ -18,12 +18,13 @@ function HomeHeader() {
   return (
     <>
       <div className="HomeHeader items">
+
         <span id="Ham">
           <button
             type="button"
             onClick={toggleSubHeader}
             aria-label="Toggle Sidebar"
-            className="HamButton items symbols"
+            className="HamButton items "
           >
             <RxHamburgerMenu className="Icon" />
           </button>
@@ -31,7 +32,7 @@ function HomeHeader() {
 
         <img
           src="/assets/rajalakshmilogo.png"
-          className="LogoRajalaksmi items symbols"
+          className="LogoRajalaksmi items"
         ></img>
 
         <div className="SearchParent items">
@@ -45,7 +46,7 @@ function HomeHeader() {
           </span>
         </div>
 
-        <span className="IconText items symbols">
+        <span className="IconText items ">
           <FaRegHeart className="Icon" />
           Wishlist
         </span>

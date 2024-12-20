@@ -7,8 +7,8 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Hfooter() {
   return (
     <>
-    <footer>
-      <div className="container">
+    <footer className="hfooter">
+      <div className="hfootcon">
 
         <div className="faboutus">
           <h2>About Us</h2>

@@ -1,13 +1,13 @@
 import React from 'react'
 import HomeHeader from '../../usercomponents/homecomponents/homeheader';
-import "./homepage.css"
 import Hcarousel from '../../usercomponents/homecomponents/hcarousel';
 import Hfooter from '../../usercomponents/homecomponents/hfooter';
+import './homepage.css';
 
 function HomePage ()  {
   return (
     <>
-    <div>
+    <div className='homepage'>
         <HomeHeader />
         <Hcarousel />
         <Hfooter />
