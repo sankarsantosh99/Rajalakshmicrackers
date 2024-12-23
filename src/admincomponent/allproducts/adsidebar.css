@@ -1,34 +1,59 @@
-
-.adsbar{
-    font-family: 'Open Sans',sans-serif;
-    position: fixed;
-    height: 100%;
-    width: 200px;
-    background-color:rgba(250, 250, 250, 1) ;
+.adsbar {
+  font-family: "Open Sans", sans-serif;
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color:white;
 }
 
-.sbartop{
- display: flex;
- flex-direction: column;
- align-items: center;
- margin-top:2rem ;
- gap: 1.3rem;
+.sbartop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.1rem;
+  margin-bottom: 1.4rem;
+  gap: 1.3rem;
 }
 
-.adslogo{
-    display: block;
-    margin: 10px 43px;
+.adslogo {
+  display: block;
+  margin: 10px 43px;
 }
 
-.icon{
-    font-size: 1.2rem;
-    padding-right: 7px;
+.icon {
+  font-size: 1.2rem;
+  padding-right: 7px;
 }
-.adsbutton{
+.adsbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  padding: 5px 0px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
-    width: 150px;
-    padding: 10px 0px;
-    border: 1px solid blue;
-    border-radius: 15px;
-    cursor: pointer;
+.sbarcatcon {
+  margin: 0 1rem;
+}
+
+.sbarcatlist {
+  color: black;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.sbarcatbutton {
+  background-color: rgb(230, 223, 223);
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  margin-top: 0.7rem;
+  margin-left: 3rem;
+  width: 30px;
+  height: 23px;
+  cursor: pointer;
 }

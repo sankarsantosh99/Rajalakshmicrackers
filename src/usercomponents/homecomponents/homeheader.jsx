@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./homeheader.css";
+import SubHeader from "../../usercomponents/homecomponents/subheader";
 import { CiSearch } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
-import SubHeader from "../../usercomponents/homecomponents/subheader";
 import { BsCart3 } from "react-icons/bs";
 import { RxHamburgerMenu } from "react-icons/rx";
 

@@ -7,8 +7,10 @@ export default function AdminPage() {
   return (
     <>
     <div className='adpage'>
+
     <AdSideBar/>
     <AdHeader/>
+    
     </div>
     </>
   )
