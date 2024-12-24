@@ -1,0 +1,24 @@
+.adtitle {
+    margin: 10px 10px 10px 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .8rem;
+}
+
+.adicon {
+  font-size: 0.9rem;
+  margin-right: 2.5px;
+}
+
+.addprod {
+  display: flex;
+  align-items:center;
+  color: white;
+  background-color: black;
+  font-size: 0.7rem;
+  font-family: Open Sans, sans-serif;
+  padding: 9px;
+  border: none;
+  border-radius: 5px;
+}
