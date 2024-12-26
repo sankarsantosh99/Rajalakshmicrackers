@@ -1,0 +1,43 @@
+.prcontainer {
+  margin-left: 210px;
+  margin-right: 10px;
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-rows: repeat(4,150px);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  
+}
+
+.pritem {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.cardtitle{
+    display: flex;
+}
+ .primg{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+ }
+  .product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between ;
+    font-size: small;
+    line-height: 13px;
+    
+  }
+
+  .prname{
+    font-weight:400;
+  }
+  .prtype{
+    font-weight: 100;
+  }
+  .prprice{
+    font-weight: 400;
+    margin-top: 5px;
+  }
