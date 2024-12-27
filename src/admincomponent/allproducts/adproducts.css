@@ -3,41 +3,52 @@
   margin-right: 10px;
   display: grid;
   grid-gap: 1.5rem;
-  grid-template-rows: repeat(4,150px);
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  
+  grid-template-rows: repeat(4, 200px);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .pritem {
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
+  padding: 10px;
 }
-.cardtitle{
-    display: flex;
+.cardtitle {
+  display: flex;
 }
- .primg{
-    width: 45px;
-    height: 45px;
-    margin: 5px;
- }
-  .product{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-between ;
-    font-size: small;
-    line-height: 13px;
-    
-  }
+.primg {
+  width: 53px;
+  height: 53px;
+  margin-right: 5px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  font-size: small;
+  line-height: 13px;
+}
 
-  .prname{
-    font-weight:400;
-  }
-  .prtype{
-    font-weight: 100;
-  }
-  .prprice{
-    font-weight: 400;
-    margin-top: 5px;
-  }
+.prname{
+  font-weight: 500;
+  font-size: small;
+}
+.prtype {
+  font-weight: 100;
+  font-size: smaller;
+}
+.prprice {
+  font-weight: 600;
+  margin-top: 11px;
+}
+
+.prsummary{
+  color: black;
+  margin-top: 10px;
+}
+.prpara{
+  color: black;
+  font-size: .7rem;
+
+}
