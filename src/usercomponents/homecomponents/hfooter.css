@@ -1,26 +1,48 @@
-.hfooter{
-  background: #3044a5;
+.hfooter {
+  background-image: linear-gradient(
+    120deg,
+    rgb(236, 196, 0),
+    rgb(255, 248, 168),
+    rgb(221, 172, 23),
+    rgb(255, 255, 149)
+  );
 }
 
 .hfootcon {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
   /* height: auto; */
-  padding: 20px 10px;
-
+  padding: 10px 40px;
 }
 
-.fheads{
+.fheads {
+  font-size: 1rem;
   color: black;
 }
-.fpara{
-  color: white;
-}
-.flinks{
+
+.flinks {
   text-decoration: none;
-  color: white;
+  font-size: .9rem;
+  color: black;
+}
+/* contactus */
+.contactus{
+ font-size: .9rem;
+}
+.fconli{
+  display: flex;
+  justify-content: start;
+  padding: 6px;
+  gap:.8rem;
+}
+.fconsp{
+  display: flex;
+  flex-direction: column;
+}
+.fconic{
+  margin:5px;
 }
 
 .hfootcon li {
@@ -29,21 +51,21 @@
 
 .ficons {
   font-size: 2rem;
-  padding: 0;
-  margin: 0;
-  color: gold;
+  color: rgb(236, 196, 0);
 }
 
-.fsocial li{
-  list-style: none;
-}
-.fsocbar{
-display: flex;
-justify-content: center;
-gap: 1.5rem;
-background-color: gray ;
+/* Social media icons */
+.fsocial {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: rgb(168, 168, 168);
 }
 
-.copri{
+.copri {
+  padding: 1rem;
+  font-size: .9rem;
   text-align: center;
 }

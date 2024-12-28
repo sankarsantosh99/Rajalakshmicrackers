@@ -2,12 +2,15 @@ import React from "react";
 import "./hfooter.css";
 import {
   FaWhatsappSquare,
-  FaYoutube,
   FaFacebookSquare,
   FaInstagramSquare,
   FaPhoneAlt,
 } from "react-icons/fa";
-import { FaLocationDot, FaRegCopyright } from "react-icons/fa6";
+import {
+  FaLocationDot,
+  FaRegCopyright,
+  FaSquareYoutube,
+} from "react-icons/fa6";
 
 export default function Hfooter() {
   return (
@@ -15,7 +18,7 @@ export default function Hfooter() {
       <footer className="hfooter">
         <div className="hfootcon">
           <div className="faboutus">
-            <h2 className="fheads">Get To Know Us</h2>
+            <h3 className="fheads">Get To Know Us</h3>
             <ul>
               <li>
                 <a href="#" className="flinks">
@@ -41,7 +44,7 @@ export default function Hfooter() {
           </div>
 
           <div className="quicklinks">
-            <h2 className="fheads">Quick Links</h2>
+            <h3 className="fheads">Quick Links</h3>
             <ul>
               <li>
                 <a href="#" className="flinks">
@@ -62,7 +65,7 @@ export default function Hfooter() {
           </div>
 
           <div className="products">
-            <h2 className="fheads">Products</h2>
+            <h3 className="fheads">Products</h3>
             <ul>
               <li>
                 <a href="#" className="flinks">
@@ -88,25 +91,26 @@ export default function Hfooter() {
           </div>
 
           <div className="contactus">
-            <h2 className="fheads">Contact Us</h2>
+            <h3 className="fheads">Contact Us</h3>
             <ul>
-              <li>
+              <li className="fconli">
                 <span>
-                  <FaLocationDot />{" "}
+                  <FaLocationDot className="fconic" />
                 </span>
-                <p className="fpara">
+                <span className="fconsp">
                   Vsoft,
                   <br />
                   Vannarpettai,
                   <br />
                   Tirunelveli.
-                  <br />{" "}
-                </p>
-              </li>
-              <li>
-                <span>
-                  <FaPhoneAlt />
+                  <br />
                 </span>
+              </li>
+              <li className="fconli">
+                <span>
+                  <FaPhoneAlt className="fconic" />
+                </span>
+                <span className="fconsp">+91 1234567890</span>
               </li>
               <li>
                 <a href="#" className="flinks"></a>
@@ -116,36 +120,30 @@ export default function Hfooter() {
               </li>
             </ul>
           </div>
-          
         </div>
 
         <div className="fsocial">
-            <ul className="fsocbar">
-              <li>
-                <a href="#" className="ficons flinks">
-                  <FaYoutube />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="ficons flinks">
-                  <FaFacebookSquare />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="ficons flinks">
-                  <FaInstagramSquare />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="ficons flinks">
-                  <FaWhatsappSquare />
-                </a>
-              </li>
-            </ul>
-          </div>
+          <a href="#" className="ficons flinks">
+            <FaSquareYoutube />
+          </a>
 
-          <div className="copri"><FaRegCopyright />RajalakshmiCrackers Limited. All Rights Reserved</div>
+          <a href="#" className="ficons flinks">
+            <FaFacebookSquare />
+          </a>
 
+          <a href="#" className="ficons flinks">
+            <FaInstagramSquare />
+          </a>
+
+          <a href="#" className="ficons flinks">
+            <FaWhatsappSquare />
+          </a>
+        </div>
+
+        <div className="copri">
+          <FaRegCopyright />
+          RajalakshmiCrackers Limited. All Rights Reserved
+        </div>
       </footer>
     </>
   );

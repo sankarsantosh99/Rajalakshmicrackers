@@ -1,12 +1,15 @@
-import HomePage from './userpages/homepage/homepage';
-import AdminPage from './userpages/adminpage/adminpage';
+import HomePage from './pages/userpages/homepage/homepage';
+import AdminPage from './pages/adminpage/adminpage';
+import CartPage from './pages/userpages/orderpage/cartpage';
 import './App.css';
 
 function App() {
   return (
    <>
-   <HomePage />
+   {/* <HomePage /> */}
+   <CartPage />
    {/* <AdminPage /> */}
+   
    </>
   );
 }
