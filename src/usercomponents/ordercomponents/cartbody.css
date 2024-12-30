@@ -1,0 +1,83 @@
+.cartbody {
+  margin: 3rem;
+}
+
+.critem {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 10px;
+}
+.cardtitle {
+  display: flex;
+}
+.crimg {
+  width: 53px;
+  height: 53px;
+  margin-right: 5px;
+}
+.cracker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  font-size: small;
+  line-height: 13px;
+}
+
+.crname {
+  font-weight: 500;
+  font-size: small;
+}
+.crtype {
+  font-weight: 100;
+  font-size: smaller;
+}
+.crrate {
+  font-weight: 600;
+  margin-top: 11px;
+}
+
+.crsummary {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.crpara {
+  color: black;
+  font-size: 0.7rem;
+  text-indent: 1rem;
+}
+
+.purchase {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: small;
+  font-weight: 600;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 2px;
+}
+.text {
+  color: orange;
+}
+.val {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (width<=768px) {
+  .cartbody {
+    margin-top: 5rem;
+  }
+}
+
+@media (width<=576px) {
+  .cartbody {
+    margin: 5rem 1.5rem;
+  }
+}
