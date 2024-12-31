@@ -30,7 +30,7 @@
   font-size: 0.7rem;
   text-align: center;
   vertical-align: middle;
-  border: 2px solid blue;
+  border: 2px solid purple;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -47,7 +47,7 @@ top: 1rem;
   width: 5rem;
   height: 2px;
   border: none;
-  background-color: blue;
+  background-color: purple;
 }
 
 
@@ -63,10 +63,10 @@ top: 1rem;
     margin-left: 26%;
   }
   .stgitem {
-    height: 15px;
-    width: 15px;
-    font-size: 0.6rem;
-    border: 1.5px solid black;
+    height: 18px;
+    width: 18px;
+    font-size: 0.7rem;
+    border: 1.5px solid purple;
   }
   .hrline {
     width: 3rem;
@@ -91,7 +91,6 @@ top: 1rem;
   }
 
   .hrline {
-    width: 2rem;
     height: 1px;
   }
 }
