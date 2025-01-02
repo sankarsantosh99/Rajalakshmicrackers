@@ -61,7 +61,14 @@
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  background-color: rgb(168, 168, 168);
+  background-image: radial-gradient(
+    circle,
+    #e11f28,
+    #870b0f 30%,
+   #560000 70%,
+   #7f090d,
+   #b2141b
+  );
 }
 
 .copri {

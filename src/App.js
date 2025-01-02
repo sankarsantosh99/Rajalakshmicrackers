@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   return (
    <>
-   {/* <HomePage /> */}
-   <CartPage />
+   <HomePage />
+   {/* <CartPage /> */}
    {/* <AdminPage /> */}
    
    </>
