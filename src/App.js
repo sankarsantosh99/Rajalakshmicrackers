@@ -3,12 +3,14 @@ import AdminPage from './pages/adminpage/adminpage';
 import CartPage from './pages/userpages/orderpage/cartpage';
 import './App.css';
 
+
 function App() {
   return (
    <>
-   <HomePage />
+   {/* <HomePage /> */}
    {/* <CartPage /> */}
-   {/* <AdminPage /> */}
+   <AdminPage />
+ 
    
    </>
   );

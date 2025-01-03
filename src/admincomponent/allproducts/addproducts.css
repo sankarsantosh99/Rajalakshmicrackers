@@ -1,0 +1,24 @@
+.addproducts {
+  color: black;
+}
+.filecon {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.filebtn {
+  border: none;
+  border-radius: 50%;
+  padding: 80px 50px;
+  cursor: pointer;
+}
+
+.fileinp {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 50%;
+
+  color: black;
+  opacity: 1;
+}
