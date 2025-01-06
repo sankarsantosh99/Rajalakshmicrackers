@@ -80,11 +80,12 @@
   color: white;
   border: none;
   border-radius: 8px;
-  background-image: linear-gradient(20deg,  #e11f28,
-  #900005,
-  #b2141b,
-  #7f090d
-  );
+  background-image: radial-gradient(
+    circle,
+   
+    #870b0f,
+    #7f090d,
+    #560000);
   width: 160px;
   height: 30px;
   margin: 10px 35%;
