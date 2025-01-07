@@ -28,7 +28,7 @@ export default function AddProducts() {
                   />
                 
               </div>
-              <div>
+              <div> 
                 
                   <input
                     type="text"
