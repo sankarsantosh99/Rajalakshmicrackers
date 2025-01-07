@@ -6,6 +6,7 @@ import AdSideBar from '../../admincomponent/allproducts/adsidebar';
 import AdTitle from '../../admincomponent/allproducts/adtitle';
 import AdProducts from '../../admincomponent/allproducts/adproducts';
 import AddProducts from '../../admincomponent/allproducts/addproducts';
+import AdminProducts from '../../admincomponent/allproducts/adminproducts';
 
 export default function AdminPage() {
   return (
@@ -16,7 +17,8 @@ export default function AdminPage() {
     <AdHeader/>
     <AdTitle/>
     <AdProducts/> */}
-    <AddProducts/>
+    {/* <AddProducts/> */}
+    <AdminProducts/>
     
     </div>
     </>
